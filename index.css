@@ -8,10 +8,6 @@
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-:root {
-    --primary: #2e2e2e;
-}
-
 html,
 body {
     height: 100%;
@@ -27,6 +23,7 @@ body {
 }
 
 .head {
+    --primary: #2e2e2e;
     height: 128px;
     width: 100%;
     background-color: var(--primary);
